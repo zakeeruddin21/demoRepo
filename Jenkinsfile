@@ -21,10 +21,9 @@ pipeline {
         
         stage('Read json') {
             steps {
-                script {
                     def jsonInput = readJSON file:'some.json'
                     println jsonInput.qa.approvers.join(',')
-                }
+              
             }
         }
     }
