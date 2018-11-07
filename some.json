@@ -1,0 +1,25 @@
+{
+  "dev": {
+    "notification": [
+      "dg@zakeer.dev.com"
+    ]
+  },
+  "qa": {
+    "notification": [
+      "dg@zakeer.qa.com"
+    ],
+    "approvers" : [
+      "vmadd03@zakeer.qa.com",
+      "zmoha10@zakeer.qa.com"
+    ]
+  },
+  "acceptance": {
+    "notification": [
+      "IT-J4U-Team@zakeer.acc.com"
+    ],
+    "approvers" : [
+      "vmadd03@zak.acc.com",
+      "zmoha10@zak.acc.com"
+    ]
+  }
+}
