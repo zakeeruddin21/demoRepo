@@ -10,7 +10,7 @@ pipeline {
                       envChoices = "dev\nqa\n"
                     }
                     else if(BRANCH_NAME ==~ /release.*/) {
-                      envChoices = "default\nacceptance\nperf\n"
+                      envChoices = "\nacceptance\nperf\n"
                     }
 
                     properties([parameters([choice(choices: "${envChoices}", description: 'Master Pipeline Environments', name: 'ENV')])])
